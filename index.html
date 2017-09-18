@@ -15,6 +15,7 @@
 		<link rel="stylesheet" href="bootstrap/dist/css/bootstrap-custom.min.css" />
 		<link rel="stylesheet" href="lib/linecons/style.css" />
 		<link rel="stylesheet" href="styles/style.min.css" />
+		<link rel="stylesheet" href="styles/custom.css" />
 		<link rel="stylesheet" href="theme-custom.css" />
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 		<link rel="apple-touch-icon" href="apple-touch-icon.png" />
@@ -45,7 +46,7 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="#home" class="hover-effect">Home</a></li>
 						<li><a href="#about" class="hover-effect">About</a></li>
-						<!-- <li><a href="#work" class="hover-effect">Work</a></li> -->
+						<li><a href="#work" class="hover-effect">Work</a></li>
 						<li><a href="#skills" class="hover-effect">Skills</a></li>
 						<li><a href="#contact" class="hover-effect">Contact</a></li>
 					</ul>
@@ -119,7 +120,7 @@
 								</div>
 								<p><a href="#about" class="button no-border text-background background-highlight">About</a>
 								<a href="#contact" class="button no-border text-background background-highlight">Contact</a>
-								<!-- <a href="#work" class="button no-border text-background background-heading">Work</a> --></p>
+								<a href="#work" class="button no-border text-background background-heading">Work</a></p>
 							</div>
 						</div>
 					</div>
@@ -133,14 +134,14 @@
 					<div class="container">
 						<h2>About</h2>
 						<p class="header-details"><span class="highlight">Create</span> Awesome Stuff</p>
-						<p class="lead">I am a freelance web developer based out of Boulder Colorado. I have a diverse set of skills having worked on everything from lightweight personal sites to massive applications in the finance industry. Some of the tech I enjoy working with includes C#, NodeJs, Javascript, JQuery, HTML, CSS, and ReactJS. Before going freelance I worked as a full stack developer at IHS Markit in Boulder.</p>
+						<p class="lead">I am a freelance web developer based out of Denver Colorado. I have a diverse set of skills having worked on everything from lightweight personal sites to massive applications in the finance industry. The tech I enjoy working with mostly revolves around Javascript and I have been especially psyched on ReactJS recently. Before going freelance I worked as a full stack developer at IHS Markit in Boulder.</p>
 						<p class="highlight lead">When I'm not writing code you can find me climbing or skiing. I especially enjoy traveling to various climbing destinations in my van, as well as bolting new routes and developing new climbing areas.</p>
 						<div class="row">
 							<div class="col-md-3">
 								<img alt class="img-circle img-thumbnail" src="images/rifle.jpg" />
 							</div>
 							<div class="col-md-3">
-								<img alt class="img-circle img-thumbnail"src="images/face.jpg" />
+								<img alt class="img-circle img-thumbnail" src="images/face.jpg" />
 							</div>
 							<div class="col-md-3">
 								<img alt class="img-circle img-thumbnail" src="images/van.jpg" />
@@ -152,38 +153,110 @@
 				</div>
 			</div>
 		</section>
-		<!-- <section id="work">
+
+		<section id="work">
 			<div class="view">
 				<img alt class="bg" src="images/placeholders/1920x1200-develop.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-create.jpg" />
-				<div class="content no-bottom-padding colors-e">
+				<div class="content no-bottom-pasdding colors-e">
 					<div class="container">
 						<h2>My <span class="highlight">Work</span></h2>
 						<p class="header-details"><span class="highlight">Some Recent</span> Projects</p>
-						<p class="lead">The majority of my work has been done for private clients that cannot be displayed on this site but here are some examples of small projects I have worked on.</p>
 					</div>
-					<div class="gallery background-e" data-default-group="all" data-overlay=".gallery-overlay">
-						<div class="container-fluid">
-							<div class="row">
-								<div class="grid">
-									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["design"]'>
-										<a href="#!portfolio-item-1.html" class="hover-overlay">
-											
-											<div class="overlay background-90-e">
-												<div class="hidden-xs">
-													<p class="title heading-e">Image</p>
-													<p class="text-center heading-e"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
-													<p class="text-center"><i class="fa fa-picture-o heading-e"></i></p>
-												</div>
-											</div>
-										</a>
-									</div>																
+					<div class="container-fluid">
+						<div class="row">
+							<div class="grid">
+								<div class="item col-md-4 col-sm-4 col-xs-6 text-center" >
+									<h4>Grip6</h4>
+									<p>Ecommerce site for belt company built with Shopify & Angular</p>
+									<a target="_blank" href="https://www.grip6.com/" class="hover-overlay">
+										<div class="portfolio-image">
+											<img alt class="img img-thumbnail"src="images/grip6.png" />
+										</div>
+									</a>
+								</div>
+								<div class="item col-md-4 col-sm-4 col-xs-6 text-center" >
+									<h4>Kai</h4>
+									<p>Sustainable food delivery app built with React and Redux</p>
+									<a target="_blank" href="https://www.getkai.co.nz/" class="hover-overlay">
+										<div class="portfolio-image">
+											<img alt class="img img-thumbnail"src="images/kai.png" />
+										</div>
+									</a>
+								</div>
+								<div class="item col-md-4 col-sm-4 col-xs-6 text-center" >
+									<h4>Idea Machine Studio</h4>
+									<p>Agency portfolio site<p>
+									<a target="_blank" href="https:/www.ideamachinestudio.com/"  class="hover-overlay">
+										<div class="portfolio-image">
+											<img alt class="img img-thumbnail"src="images/ideaMachine.png" />
+										</div>
+									</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section> -->
+<!-- 
+			<div class="view">
+				<img alt class="bg" src="images/placeholders/1920x1200-develop.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-create.jpg" />
+				<div class="content no-bottom-pasdding colors-e">
+					<div class="container">
+						<h2>My <span class="highlight">Work</span></h2>
+						<p class="header-details"><span class="highlight">Some Recent</span> Projects</p>
+					</div>
+					<div class="gallery background-e" data-default-group="all" data-overlay=".gallery-overlay">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="grid">
+									<div class="item col-md-4 col-sm-4 col-xs-6" data-groups='["design"]'>
+										<a href="https://www.grip6.com/" class="hover-overlay">
+											<div class="portfolio-image">
+												<img alt class="img img-thumbnail"src="images/grip6.png" />
+											</div>
+											<div class="overlay background-90-e">
+												<div class="hidden-xs">
+													<p class="title heading-e">Grip6</p>
+													<p class="text-center heading-e"><strong>Ecommerce website selling unique belts built with Shopify and Angular</strong></p>
+													<p class="text-center"><i class="fa fa-picture-o heading-e"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>			
+									<div class="item col-md-4 col-sm-4 col-xs-6" data-groups='["design"]'>
+										<a href="https://www.getkai.co.nz/" class="hover-overlay">
+											<div class="portfolio-image">
+												<img alt class="img img-thumbnail"src="images/kai.png" />
+											</div>
+											<div class="overlay background-90-e">
+												<div class="hidden-xs">
+													<p class="title heading-e">Kai</p>
+													<p class="text-center heading-e"><strong>Food delivery app built with React and Redux</strong></p>
+													<p class="text-center"><i class="fa fa-picture-o heading-e"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>	
+									<div class="item col-md-4 col-sm-4 col-xs-6" data-groups='["design"]'>
+										<a target="_blank" href="https:/www.ideamachinestudios.com/" class="hover-overlay">
+											<div class="portfolio-image">
+												<img alt class="img img-thumbnail"src="images/ideaMachine.png" />
+											</div>
+											<div class="overlay background-90-e">
+												<div class="hidden-xs">
+													<p class="title heading-e">ideaMachine</p>
+													<p class="text-center heading-e"><strong>Agency portfolio site</strong></p>
+													<p class="text-center"><i class="fa fa-picture-o heading-e"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>														
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+		</section>
 		<section id="skills">
 			<div class="view">
 				<img alt class="bg" src="images/placeholders/1920x1200-create.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-develop.jpg" />

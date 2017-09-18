@@ -4722,4 +4722,7 @@ html {
 .background-100-dark {
   background-color: #000 !important;
 }
+.portfolio-image {
+  padding: 10%;
+}
 

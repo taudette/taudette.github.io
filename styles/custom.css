@@ -1,0 +1,16 @@
+.portfolio-image {
+  padding: 15%;
+  padding-top: 2%;
+}
+
+.title {
+    position: absolute;
+    left: 100px;
+    margin-top: -40px;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+.item:hover .title {
+  display:block;
+}
